@@ -18,6 +18,10 @@
             model: "https://OC135.github.io/test6/mh601.glb",
             texture: "" // 元に戻す用のURL（空なら何もしない）
         },
+        usnavy: {
+            model: "https://OC135.github.io/test6/mh60r1.glb",
+            texture: "" // 元に戻す用のURL（空なら何もしない）
+        },
         jmsdf: {
             model: "https://OC135.github.io/test6/SH60J30.glb",
             texture: "" // 元に戻す用のURL（空なら何もしない）
@@ -102,7 +106,8 @@
             <h3 style="margin:0 0 10px 0; font-size:14px; text-align:center;">H-60J</h3>
             <button id="toggle-sh60" style="width:100%; padding:10px; margin-bottom:10px; cursor:pointer; background:#444; color:white; border:none;">モデル表示：OFF</button>
             <hr style="border:0.5px solid #555;">
-            <button class="skin-btn" data-skin="usarmy" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#383838; color:white; border:1px solid #c3c3c3;">US ARMY</button>
+            <button class="skin-btn" data-skin="usarmy" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#383838; color:white; border:1px solid #c3c3c3;">US NAVY</button>
+            <button class="skin-btn" data-skin="usnavy" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#383838; color:white; border:1px solid #c3c3c3;">US ARMY</button>
             <button class="skin-btn" data-skin="jmsdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#c3c3c3; color:white; border:1px solid #c3c3c3;">JMSDF</button>
             <button class="skin-btn" data-skin="jgsdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#16380b; color:white; border:1px solid #16380b;">JGSDF</button>
             <button class="skin-btn" data-skin="jasdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#004466; color:white; border:1px solid #0088cc; font-weight:bold;">JASDF</button>
