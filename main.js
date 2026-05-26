@@ -22,8 +22,16 @@
             model: "https://OC135.github.io/test6/mh60r1.glb",
             texture: "" // 元に戻す用のURL（空なら何もしない）
         },
+        usaf: {
+            model: "https://OC135.github.io/test6/hh60g1.glb",
+            texture: "" // 元に戻す用のURL（空なら何もしない）
+        },
         jmsdf: {
             model: "https://OC135.github.io/test6/SH60J30.glb",
+            texture: "" // 元に戻す用のURL（空なら何もしない）
+        },
+        jmsdfk: {
+            model: "https://OC135.github.io/test6/sh60k1.glb",
             texture: "" // 元に戻す用のURL（空なら何もしない）
         },
         jgsdf: {
@@ -106,11 +114,13 @@
             <h3 style="margin:0 0 10px 0; font-size:14px; text-align:center;">H-60J</h3>
             <button id="toggle-sh60" style="width:100%; padding:10px; margin-bottom:10px; cursor:pointer; background:#444; color:white; border:none;">モデル表示：OFF</button>
             <hr style="border:0.5px solid #555;">
-            <button class="skin-btn" data-skin="usnavy" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#c3c3c3; color:white; border:1px solid #c3c3c3;">US NAVY</button>
-            <button class="skin-btn" data-skin="usarmy" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#383838; color:white; border:1px solid #c3c3c3;">US ARMY</button>
-            <button class="skin-btn" data-skin="jmsdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#c3c3c3; color:white; border:1px solid #c3c3c3;">JMSDF</button>
-            <button class="skin-btn" data-skin="jgsdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#16380b; color:white; border:1px solid #16380b;">JGSDF</button>
-            <button class="skin-btn" data-skin="jasdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#004466; color:white; border:1px solid #0088cc; font-weight:bold;">JASDF</button>
+            <button class="skin-btn" data-skin="usnavy" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#c3c3c3; color:white; border:1px solid #c3c3c3;">US NAVY MH-60R</button>
+            <button class="skin-btn" data-skin="usarmy" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#383838; color:white; border:1px solid #c3c3c3;">US ARMY MH-60M</button>
+            <button class="skin-btn" data-skin="usaf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#40455c; color:white; border:1px solid #c3c3c3;">USAF HH-60G</button>
+            <button class="skin-btn" data-skin="jmsdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#c3c3c3; color:white; border:1px solid #c3c3c3;">JMSDF SH-60J</button>
+            <button class="skin-btn" data-skin="jmsdfk" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#c3c3c3; color:white; border:1px solid #c3c3c3;">JMSDF SH-60K</button>
+            <button class="skin-btn" data-skin="jgsdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#16380b; color:white; border:1px solid #16380b;">JGSDF Uh-60JA</button>
+            <button class="skin-btn" data-skin="jasdf" style="width:100%; margin-top:10px; padding:8px; cursor:pointer; background:#004466; color:white; border:1px solid #0088cc; font-weight:bold;">JASDF UH-60J</button>
         `;
         document.body.appendChild(panel);
 
